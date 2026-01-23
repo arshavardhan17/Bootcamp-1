@@ -1,0 +1,33 @@
+.maindiv {
+  background-color: #000;
+  width: full;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formcard {
+  background-color: aliceblue;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.CreateAccount {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google {
+  background-color: #000;
+  width: 80%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
