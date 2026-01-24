@@ -6,7 +6,7 @@ public class F_Numbered_Rectangle_Increasing {
 
         int n=sc.nextInt();
         int m=sc.nextInt();
-
+        sc.close();
         for(int i=1;i<=n;i++){
             for(int j=1;j<=m;j++){
                 System.out.print(j);

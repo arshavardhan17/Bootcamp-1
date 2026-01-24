@@ -6,7 +6,7 @@ public class H_Numbered_Trctangle_4 {
 
         int n=sc.nextInt();
         int m=sc.nextInt();
-
+        sc.close();
         char c='A';
         for(int i=1;i<=n;i++){
             for(int j=1;j<=m;j++){

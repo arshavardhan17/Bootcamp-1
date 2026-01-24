@@ -6,7 +6,7 @@ public class G_Numbered_Rectangle_3 {
 
         int n=sc.nextInt();
         int m=sc.nextInt();
-
+        sc.close();
         for(int i=1;i<=n;i++){
             char c='A';
             for(int j=1;j<=m;j++){
