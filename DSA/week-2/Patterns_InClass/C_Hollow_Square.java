@@ -5,6 +5,7 @@ public class C_Hollow_Square {
         Scanner sc=new Scanner(System.in);
 
         int n=sc.nextInt();
+        sc.close();
 
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n;j++){
@@ -18,3 +19,11 @@ public class C_Hollow_Square {
         }
     }
 }
+
+/*
+*****
+*   *
+*   *
+*   *
+*****
+*/

@@ -13,3 +13,14 @@ public class B_Inverted_pyamid {
         }
     }
 }
+
+/*
+*****
+****
+***
+**
+*
+
+*/
+
+
