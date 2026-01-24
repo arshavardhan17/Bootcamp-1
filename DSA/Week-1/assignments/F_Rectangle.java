@@ -54,7 +54,7 @@ public class F_Rectangle {
         Scanner sc=new Scanner(System.in);
         int length=sc.nextInt();
         int breadth=sc.nextInt();
-
+        sc.close();
         int area=length*breadth;
         int perimeter =2*(length+breadth);
 

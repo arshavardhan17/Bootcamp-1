@@ -46,11 +46,12 @@ and M
 
 
    import java.util.Scanner;
-public class H1_Caliculator {
+public class H1_Calculator {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int m=sc.nextInt();
+        sc.close();
 
         System.out.println(n+" + "+m+" = "+(n+m));
         System.out.println(n+" - "+m+" = "+(n-m));
