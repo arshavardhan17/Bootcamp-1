@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class D_hollow_Pyramid {
+public class D_hollow_Inverse_Pyramid {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 

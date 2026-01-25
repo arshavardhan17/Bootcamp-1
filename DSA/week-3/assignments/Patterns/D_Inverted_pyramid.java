@@ -1,0 +1,86 @@
+/*
+D. Inverse Pyramid
+time limit per test
+1 second
+memory limit per test
+256 megabytes
+
+You are given a positive integer n
+
+.
+
+Print an inverse pyramid pattern consisting of n
+
+rows.
+Input
+
+The input contains a single integer n
+(1≤n≤2⋅103)
+
+.
+Output
+
+Print n
+
+lines, as given in the example
+Examples
+Input
+Copy
+
+3
+
+Output
+Copy
+
+***
+**
+*
+
+Input
+Copy
+
+5
+
+Output
+Copy
+
+*****
+****
+***
+**
+*
+
+Input
+Copy
+
+8
+
+Output
+Copy
+
+********
+*******
+******
+*****
+****
+***
+**
+*
+
+ */
+
+import java.util.Scanner;
+
+public class D_Inverted_pyramid {
+public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        sc.close();
+        for(int i=1;i<=n;i++){
+            for(int j=i;j<=n;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
