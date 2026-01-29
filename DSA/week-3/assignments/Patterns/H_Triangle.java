@@ -56,7 +56,25 @@ import java.util.Scanner;
 
 public class H_Triangle {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for(int i = 1; i <= n; i++) {
+
+            // Leading spaces
+            for(int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+
+            // Stars without trailing space
+            for(int j = 1; j <= i; j++) {
+                System.out.print("*");
+                if(j < i) {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+        }
     }
 }
