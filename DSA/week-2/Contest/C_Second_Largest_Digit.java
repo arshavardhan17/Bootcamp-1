@@ -54,6 +54,7 @@ public class C_Second_Largest_Digit {
         Scanner sc =new Scanner(System.in);
 
         int n=sc.nextInt();
+        sc.close();
 
         n=n/10;
          int rem =n%10;

@@ -46,6 +46,7 @@ public class B_isOvel {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         String ch=sc.next();
+        sc.close();
         if(ch.equals("a")||ch.equals("e")||ch.equals("i")||ch.equals("o")||ch.equals("u")){
             System.out.println("YES");
         }else{
