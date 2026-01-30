@@ -54,13 +54,14 @@ Copy
 
 // if the row number is odd we start with 0 and alternate
 //if the row number is even we start with 1 and alternate
-// to alternate use the concept of odd even by mod 2 it returns only 1 and 0 
+// to alternate use the concept of odd even by mod 2 it returns only 1 and 0
 import java.util.Scanner;
 
 public class Q_Binary_pyramid {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         for(int i=1;i<=n;i++){
             //  caliculating start point
                 int start;
