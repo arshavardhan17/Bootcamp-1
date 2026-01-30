@@ -1,0 +1,7 @@
+/*
+Create a variable for each of the following: your favorite color, your height in centimeters, and whether you like pizza. Use appropriate variable declarations (let, const, or var). Try logging it using console.log
+*/
+
+let color="Orenge";
+let hight =159;
+const LikePizza =false;
