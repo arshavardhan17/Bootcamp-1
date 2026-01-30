@@ -58,6 +58,7 @@ public class G_Prime_from_1_to_n {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        sc.close();
         for(int i=2;i<=n;i++ ){
             if(ISPrime(i)){
                 System.out.print(i+" ");

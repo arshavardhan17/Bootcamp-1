@@ -77,6 +77,7 @@ public class E_Count_Good_n_Numbers {
         }
 
         System.out.println(count);
+        sc.close();
     }
 }
 
