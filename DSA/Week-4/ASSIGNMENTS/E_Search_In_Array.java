@@ -9,12 +9,16 @@ public class E_Search_In_Array {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+        int count=0;
         for(int value:arr){
             if(value==target){
-                System.out.print("YES");
-            }else{
-                System.out.print("NO");
-            }
+            count++;
+        }
+        }
+        if(count!=0){
+            System.out.print("YES");
+        }else{
+            System.out.print("NO");
         }
     }
 }
